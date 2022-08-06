@@ -1,0 +1,120 @@
+.simulator{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(55, 55, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+.simulator .sim-inner{
+    width: 90%;
+}
+.simulator .league-name{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.clubs-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.clubs-block .img-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clubs-block .img-block img{
+    width: 100%;
+    height: 100%;
+}
+.club-home{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+.club-home h3{
+    margin-right: 10px;
+}
+.club-away{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 35%;
+}
+.club-away h3{
+    margin-left: 10px;
+}
+
+.goals-block{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #fff;
+}
+.goals-block .goal{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: right;
+}
+.goal span{
+    width: 9px;
+    height: 13px;
+    margin-left: 5px;
+}
+.goal span.yellow{
+    background-color: yellow;
+}
+.goal span.red{
+    background-color: red;
+}
+.home-goal,
+.away-goal{
+    width: 35%;
+}
+.goals-block .goal:not(:last-child){
+    margin-bottom: 5px;
+}
+.statistic-block{
+    background-color: rgba(73, 67, 67,.7);
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+.statistic-block .stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+.statistic-block .stats:not(:last-child){
+    margin-bottom: 20px;
+}
+.start{
+    padding: 10px 30px;
+    background-color: green;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+}
+.generate{
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+}
+.full-minute{
+    color: yellow;
+}

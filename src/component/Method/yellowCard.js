@@ -4,7 +4,6 @@ export function yellowCard(foulsData,squad){
     let homeMinuteRandom=[];
     let awayMinuteRandom=[];
     let data={};
-    console.log(homeYellowCard,awayYellowCard)
     for(let i=0;i<homeYellowCard;i++){
         let playerRandom=squad.home[parseInt(Math.random()*10)];
         //     if(homeMinuteRandom.find((t,k)=>{if(t.player===playerRandom){

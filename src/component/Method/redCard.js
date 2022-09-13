@@ -23,6 +23,5 @@ export function redCard(foulsData,squad){
         });
       data.away=awayMinuteRandom
     }
-   console.log(data)
     return data;
 }

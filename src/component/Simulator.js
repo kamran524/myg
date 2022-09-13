@@ -157,7 +157,6 @@ const Simulator = () => {
 
     // Yellow Card
     yellowCardData?.home?.forEach(item=>{
-      console.log(item.minute,minute)
       if(item.minute===minute){
         let copyCount={...scorePlayer};
         scorePlayer.home.push(item)
@@ -172,7 +171,6 @@ const Simulator = () => {
       }
     })
      // Yellow Card
-     console.log(redCardData)
      redCardData?.home?.forEach(item=>{
        if(item.minute===minute){
          let copyCount={...scorePlayer};
@@ -187,7 +185,6 @@ const Simulator = () => {
          setScorePlayer(copyCount)
        }
      })
-     console.log(scorePlayer)
   }, [minute]);
   return (
     <div className="simulator">
